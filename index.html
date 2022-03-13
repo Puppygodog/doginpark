@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Moving Dog On</title>
+</head>
+<body onload="add()">
+	
+<center>
+<h1>Moving Dog In Park</h1>
+<canvas id = "myCanvas" height = "600" width = "800">
+
+	
+</canvas>
+	<h4>
+		<b class = "text-danger"> NOTE : </b> IF DOG IS NOT VISIBLE PRESS ANY ARROW KEY
+	</h4>
+<p id = "aboutdogs" class = "btn btn-success"> 
+	1.Their sense of smell is at least 40x better than ours.
+	2. Some have such good noses they can sniff out medical problems. 
+	3. Dogs can sniff at the same time as breathing. 
+	4. Some dogs are incredible swimmers. 
+	
+	</p>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
